@@ -7,6 +7,7 @@
 
 # dependencies
 /node_modules
+/functions/node_modules
 
 # IDEs and editors
 /.idea
@@ -31,9 +32,21 @@
 /libpeerconnection.log
 npm-debug.log
 yarn-error.log
+firebase-debug.log
+firestore-debug.log
 testem.log
 /typings
 
 # System Files
 .DS_Store
 Thumbs.db
+firebase-debug.log
+database-debug.log
+firestore-debug.log
+/.vscode/
+.firebase/*
+.angulardoc.json
+documentation
+
+# Environment Keys
+/environments
