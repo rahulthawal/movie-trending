@@ -1,1 +1,6 @@
-<app-movie-card></app-movie-card>
+<!-- <app-movie-card
+  class="col-12 col-md-6
+        col-lg-4"
+></app-movie-card> -->
+<div *ngFor="let movie of movies">
+<div *ngFor="let movieDetail of movie"> {{movieDetail.snippet.title}} </div></div>
