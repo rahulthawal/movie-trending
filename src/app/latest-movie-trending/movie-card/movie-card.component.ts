@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-movie-card',
@@ -10,5 +10,13 @@ export class MovieCardComponent implements OnInit {
   movie;
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    const youTubeKey = '';
+    const youTubeURL =
+      'https://www.googleapis.com/youtube/v3/videos?' +
+      'part=snippet%2CcontentDetails%2Cstatistics&' +
+      'chart=mostPopular&' +
+      'regionCode=US' +
+      '&key=youTubeKey';
+  }
 }

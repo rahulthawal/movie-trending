@@ -47,6 +47,3 @@ firestore-debug.log
 .firebase/*
 .angulardoc.json
 documentation
-
-# Environment Keys
-environments/
