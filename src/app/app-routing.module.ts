@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'movies',
+    path: 'videos',
     loadChildren: './latest-movie-trending/latest-movie-trending.module#LatestMovieTrendingModule'
   }
 ];
